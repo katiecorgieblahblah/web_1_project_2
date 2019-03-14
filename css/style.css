@@ -1,189 +1,161 @@
 body{
-  background: url('https://raw.githubusercontent.com/tyreil/web_1_project_2/master/assets/textures/fabric_plaid.png')
+  background: url(https://github.com/Smoeder/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true);
+  font-family:'Museo', sans-serif;
 }
-a{ 
-text-decoration: none;
-color: #696969}
 nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-
 #left {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	width: 20%;
-  margin: 12px;
+  margin:12px;
 }
-
-#left a{
-	margin: 20px;
-}
-
 #right {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
 }
-
-#right img {
-		margin: 10px;
-		width: 30px;
-	border-radius: 20%;
-} 
-
-#login{
-	display: flex;
-	flex-direction: row;
-}
-#login p{
-	margin: 5px;
+.icon {
+	width: 5vh;
+  height: 5vh;
+  padding: 2vh;
+  
 }
 .slider {
   display: flex;
-  height: 60vh;
+  width: 97%;
+  height: 70vh;
   background-color: darkgrey;
 	align-items: flex-end;
 	color: white;
+  font-size:36px;
   border: 10px solid white;
-  margin: 0 12px;
+	margin: 22px;
 }
-
-#feature {
+#leftarrow{
+	width: 70px;
 	position: absolute;
-	top: 45%;
-  right: 60%;
+	top: 50%;
+	left: 20px;
 }
-
-.slider2 {
+#rightarrow{
+	width: 70px;
+	position: absolute;
+	top: 50%;
+	left: 95.6%;
+}
+.slide2{
 	display: flex;
-	height: 40px;
+	height: 30px;
   width: 100%;
   background-color: grey;
   align-items: center;
 	justify-content: flex-end;
 	padding-right:10px;
+  padding-left:20px;
+  color:white;
 }
 
-#leftarrow {
-	width: 30px;
+.feature {
 	position: absolute;
 	top: 45%;
-	left: 12px;
-}
-
-#rightarrow {
-	width: 30px;
-	position: absolute;
-	top: 45%;
-	right:378px;
-}
-	
-.icon {
-	width: 50px;
-	align-self: flex-start;
-}
-
-#altview{
+  font-size:36px;
+  color:white;
   display:flex;
-  width: 100%;
-  height: 180px;
+  justify-content:center;
+}
+section.img {
+    margin: 20px 10px;
+    height: 40vh;
+    width: 60vh;
+    background-color: #696969;
+  color:white;
+  }
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }
 
-.altimg {
-  margin: 10px 10px;
-	height: 90%;
-	width: 100%;
-	background-color: gray;
+#gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nesssst{
+  color: black;
+  font-size: 2em;
+}
+
+div {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+}
+
+.button {
+	text-decoration: none;
+	background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
 	color: white;
-  border: 5px solid white;
+	background-color: #666;
+	background-blend-mode: overlay;
+	padding: 20px 90px;
 }
 
-#top{
-  display:flex;
-}
-
-#topleft{
-  width:100%;
-}
-
-#project{
-  background-color: white;
-  color: gray;
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-}
-
-#topright{
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-
-#contact{
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-  justify-content:flex-end;
-  margin-bottom: 11px;
-  padding: 10px;
-}
-#topright img {
-		margin: 10px;
-		width: 30px;
-	border-radius: 20%;
-} 
-#userimg{
-  background-color: gray;
-  color: white;
-  display: flex;
-  flex-direction: column;
+#tweet{
+  display: flex; 
+  color:white;
+  background-color: grey;
   justify-content: center;
   align-items: center;
-  padding: 15px;
-  margin: 10px;
-  width: 25%;
 }
 
-.context{
-  text-align: right;
+.left-column{
+  display: flex-start; 
+  color:white;
+  background-color: silver;
+  justify-content: center;
+  align-items: center;
 }
 
-#userimg p{
-  margin: 0;
+.middle-column{
+  display: flex-start; 
+  color:white;
+  background-color: silver;
+  justify-content: center;
+  align-items: center;
 }
 
-#portfolio{
-  color: #696969;
-  margin: 12px;
-}
-#gallery {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	margin: 0 auto;
+.right-column{
+  display: flex-start; 
+  color:white;
+  background-color: silver;
+  justify-content: center;
+  align-items: center;
 }
 
-.portfolio{
-  margin: 10px 10px;
-	height: 200px;
-	width: 100%;
-	background-color: gray;
+div {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	color: white;
 }
 
-.tweet{
-	display: flex;
-  height: 50px;
+.button {
+	text-decoration: none;
+	background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+	color: white;
+	background-color: #666;
+	background-blend-mode: overlay;
+	padding: 10px 70px;
+	top: 260vh;
+	margin-bottom: 20px;
+}
+	
+.twitterbar{
+	height: 10%;
   width: 100%;
 	color:white;
 	background-color: #484848;
@@ -202,7 +174,7 @@ nav {
 	width: 100%;
 }
 
-.column {
+.column{
 	display: flex;
 	color: white;
 	flex-direction: column; 
@@ -210,10 +182,7 @@ nav {
 	width:30%;
 	margin: 20px 20px 40px 20px; 
 }
-.column div{
-  display:flex;
-  flex-direction: row;
-}
+
 .footnav img{
 	align-self: center;
 }
@@ -223,6 +192,9 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 }
+a{
+	text-decoration: none;
+color: #696969}
 
 #searchbar{
 	justify-content: flex-start;
@@ -231,7 +203,6 @@ nav {
 	background-color: white;
 	width:80%;
 	color:#696969;
-	padding: 5px;
 }
 
 .imgfoot {
@@ -244,10 +215,17 @@ nav {
 	align-items: center;
 	color: white
 }
+
 #s-icon{
 	width:7%;
-	margin: 2px;
+	margin: 1%;
 }
 
-h1{ 
-color: #696969}
+a{
+  text-decoration: none;
+}
+@fontface{
+  font-family:'Museo'
+  src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+}
+
